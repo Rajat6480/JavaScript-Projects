@@ -1,0 +1,25 @@
+body{
+    background-color: #212121;
+    color:#fff
+}
+
+button{
+    border:none;
+    margin-right:5px;
+    padding:6px;
+    border-radius: 10px;
+    background-color: aquamarine;
+    cursor: pointer;
+}
+
+.guide{
+    border:2px solid  #fff;
+    padding: 9px;
+    margin-top: 9px
+}
+
+#result{
+    color:white;
+    margin:12px;
+    
+}

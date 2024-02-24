@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>clock</title>
+</head>
+<body style="background-color: #212121; color:#fff;">
+    <div class="container">Clock</div>
+    <div style="background-color: rgb(231, 169, 54);" id="clock"></div>
+</body>
+<script>
+    const clock = document.getElementById('clock')
+   
+    // console.log(date.toLocaleTimeString()) 
+    setInterval(() => {
+        let date = new Date();
+        clock.innerHTML = date.toLocaleTimeString();
+    }, 1000);
+</script>
+</html>

@@ -1,0 +1,24 @@
+.btn{
+    outline: none;
+    border: none;
+    padding: 12px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+#btn-red{
+    background-color: red;
+    color: #fff;
+}
+#btn-green{
+    background-color: green;
+    color: #fff;
+}
+#btn-blue{
+    background-color: blue;
+    color: #fff;
+}
+#btn-yellow{
+    background-color: yellow;
+    
+}
